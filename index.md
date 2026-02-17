@@ -1,75 +1,82 @@
 ---
 layout: default
-title: Computer Vision in the Built Environment 
-description: CV4AEC @ CVPR 2024 (18 June 2024)
+title: Computer Vision for the Built World
+description: CV4AEC @ CVPR 2026 (3 June 2026)
 ---
 
-:wave: Welcome to the **4<sup>th</sup> Workshop and Challenge on
-Computer Vision In The Built Environment For The Design, Construction and Operation of Buildings** organized at :wave: [<img class="rounded-rect" src="assets/imgs/cvpr2024.png" width="400px" alt="cvpr2024"/>](https://cvpr.thecvf.com/) 
-{: .text-center} 
+<p style="text-align: center; margin-bottom: 1.5em;">:wave: Welcome to the <strong>5<sup>th</sup> Workshop on
+Computer Vision for the Built World</strong> organized at :wave:</p>
 
-Building on the success of the previous three workshops, the 4th Workshop on Computer Vision in the Built Environment continues on connecting the domains of Architecture, Engineering, and Construction (AEC) with that of Computer Vision by establishing a common ground of interaction and identify shared research interests. Specifically, this workshop focuses on the as-is semantic status of built environments and the changes that take place within them over time. These topics will be presented from the dual lens of Computer Vision and AEC-FM, highlighting the limitations and bottlenecks related to developing applications for this specific domain. The objective is for attendees to learn more about AEC-FM and the variety of real-world problems that, if solved, could have a tangible impact on this multi trillion dollar industry as well as the overall quality of life across the globe.
+<p style="text-align: center; margin-top: 1.5em; margin-bottom: 1.5em;">
+<a href="https://cvpr.thecvf.com/"><img class="rounded-rect" src="assets/imgs/cvpr2026.png" width="400px" alt="cvpr2026"/></a>
+</p>
 
-The workshop will begin by establishing ways to capture the as-is status of a space with expert speakers from both the AEC and Computer Vision domains. Attendees will be then introduced to the type of information required for the spatiotemporal analysis of our built environment in AEC, with a focus on effective management, safety, and the role of users in this process. Following that, the topic of scene understanding from 3D and 4D reconstructions will be presented. Finally, to close the loop from understanding real-world built environments to designing built environments better and faster, the topic of scene synthesis at a geometric and semantic level will be presented. The importance of closing the loop for the AEC industry is paramount, especially when considering the design paradox. Architects are designing living spaces without any feedback from their previous designs. Learning to design using data from spaces that are already occupied and in-use, can provide designers with insights on what makes spaces appropriate for supporting the quality of life of the users.
+This workshop bridges the fields of Architecture, Engineering, and Construction (AEC) with Computer Vision by focusing on how construction, the most dynamic, data-rich, and physically grounded phase of the built environment, can inform the way we design. Construction sites continuously evolve in geometry, appearance, and topology, offering a uniquely challenging yet structured setting for advancing computer vision tasks such as spatiotemporal modeling, semantic reasoning, and multimodal understanding. At the same time, the representations learned from construction data --- capturing how things are actually built, changed, and adapted --- can feed back into design processes, informing more generative, data-driven, and sustainable decision-making.
 
-To further establish connections between the two domains and identify what we can do right now and what is still hard to solve, we will host the **4th International Scan-to-BIM competition** targeted on acquiring the semantic as-is status of buildings given their 3D point clouds. Specifically, we will focus on the tasks of floorplan reconstruction and 3D building model reconstruction and present appropriate interdisciplinary metrics for solving them. The past two years we observed that a large gap remains before these problems can be considered solved and actually meet the needs of practitioners. We regard this workshop as the ideal environment for understanding the challenges and steps forward given that it provides convergence between the research and practical communities from multiple disciplines.
+The workshop explores how visual and multimodal data, including 3D scans, imagery, sensor streams, and language, can be used to model and predict the evolution of the built environment and inspire generative frameworks that translate these insights into actionable design knowledge. The goal is to connect bottom-up scene understanding with top-down design generation, effectively closing the loop between "as-built" and "as-designed." Construction thus becomes not only an application domain but also an experimental testbed for foundational computer vision research --- providing real-world complexity, scale, and temporal dynamics rarely captured in synthetic datasets.
 
-The workshop will therefore consist of two parts: invited <a href="#speakers" target="_self">keynote talks</a> and a  <a href="#challenge" target="_self">Scan-to-BIM challenge</a>.
+Through paper submissions, keynote talks, and the **Nothing Stands Still** construction-data challenge, participants will engage with real-world, challenging testbeds that advance spatiotemporal 3D modeling, multimodal understanding, and semantic reasoning of evolving scenes in core vision research.
+
+The workshop will consist of: invited <a href="#speakers" target="_self">keynote talks</a>, <a href="#papers" target="_self">paper submissions</a>, and the <a href="#challenge" target="_self">Nothing Stands Still Challenge</a>.
 
 ---
 
 ## :newspaper: **News** {#news}
-- **06 May 2024 ---** :loudspeaker: Presentation instructions sent to authors, details updated [here](#instructions).
-- **25 Apr 2024 ---** :loudspeaker: Paper decision notification sent to authors.
-- **18 Apr 2024 ---** :loudspeaker: Workshop schedule confirmed.
-- **19 Mar 2024 ---** :loudspeaker: **Afshin Dehghan** confirmed as keynote speaker.
-- **14 Feb 2024 ---** :loudspeaker: We are accepting paper submissions this year! Look at Important Dates and Call For Short Papers, [CMT Submission Link](https://cmt3.research.microsoft.com/CV4AEC2024/).
-- **14 Feb 2024 ---** :loudspeaker: **Caitlin Mueller** confirmed as keynote speaker.
-- **13 Feb  2024 ---** :loudspeaker: Tentative schedule and dates released.
-- **26 Jan 2024 ---** :loudspeaker: **Catherine De Wolf** and **Francis Engelmann** confirmed as keynote speaker.
-- **26 Jan 2024 ---** :loudspeaker: **Derek Lichti** and **Yuanbo (Amber) Xiangli** confirmed as keynote speaker.
-- **26 Jan 2024 ---** :tada: Website is live!
+- **16 Feb 2026 ---** :tada: Website is live!
+
+---
+
+## :dart: **Topics** {#topics}
+
+- **Learning from change:** Vision-based modeling of evolving spaces/sites to capture temporal, geometric, and semantic changes across scales.
+- **Generative and predictive modeling:** Using construction-derived knowledge to propose design alternatives, predict project evolution, and support reuse and sustainability goals.
+- **Multimodal scene understanding:** Integrating 3D geometry, imagery, building sensors, and text-based project documentation for holistic understanding.
+- **Design-process feedback:** Translating as-built data into generative design prompts or constraints that make design more adaptive, data-informed, and context-aware.
+- **Sustainability and circularity:** Leveraging vision and generation to enable resource-conscious construction, renovation, and reuse of building components.
+- **Benchmarking and evaluation:** Introducing the Nothing Stands Still construction dataset and challenge on spatiotemporal 3D registration as a realistic testbed for evolving-scene understanding.
 
 ---
 
 ## :hourglass_flowing_sand: **Important Dates** {#dates}
 > **NOTE**: The submission/release times are **11:59:59 UTC** on the specified date.
 
-<strong><u>Short Paper Submission</u></strong>
-- **1 Apr 2024 ---** Paper submission deadline
-- **3 Apr 2024 ---** Papers distributed to reviewers
-- **18 Apr 2024 ---** Review submission deadline
-- **25 Apr 2024 ---** Notification to Authors
+<strong><u>Archival Paper Submission (8 pages)</u></strong>
+- **15 Jan 2026 ---** Submissions open
+- **7 Mar 2026 ---** Submission deadline
+- **20 Mar 2026 ---** Final decisions / Reviews sent
+- **10 Apr 2026 ---** Camera ready deadline
 
-<strong><u>Challenge</u></strong>
-- **8 Apr 2024 ---** Training + Validation + Testing data available for 2D & 3D
-- **9 Apr 2024 ---** Evaluation server **open** to evaluate test submissions
-- **~~01 Jun~~ 05 Jun 2024 ---** Challenge Submission Deadline
-- **07 Jun 2024 ---** Notification To Challenge Participants
-- **18 Jun 2024 ---** CV4AEC Workshop @ CVPR 2024
+<strong><u>Non-Archival Paper Submission (4 pages)</u></strong>
+- **15 Jan 2026 ---** Submissions open
+- **15 Apr 2026 ---** Submission deadline
+- **1 May 2026 ---** Final decisions / Reviews sent
+
+<strong><u>Nothing Stands Still Challenge</u></strong>
+- **15 Jan 2026 ---** Dataset release & Registration opens
+- **15 Feb 2026 ---** Submission window opens (evaluation server live)
+- **30 Apr 2026 ---** Challenge submission deadline
+- **30 Apr -- 4 May 2026 ---** Review & Evaluation
+- **5 May 2026 ---** Notification of challenge winners
+- **3 Jun 2026 ---** CV4AEC Workshop @ CVPR 2026
 
 ---
 
 ## :calendar: **Schedule** {#schedule}
-The workshop took place on **18 June 2024** from **09:00 - 17:00 PDT**. The recording of our workshop for registered participants can be found on [CVPR platform](https://cvpr.thecvf.com/virtual/2024/workshop/23655).
+The workshop will take place on **3 June 2026** as a **half-day in-person event (4 hours)**.
 
-> **NOTE**: Times are shown in **Pacific Daylight Time**. Please take this into account if joining the workshop virtually.
+> **NOTE**: The schedule is tentative. Exact times will be updated closer to the workshop date.
 
-| Time (PDT)    | Duration | Event                                                                  |
-|---------------|----------|------------------------------------------------------------------------|
-| 09:00 - 09:30 | 30 mins  | Welcome & Introduction                                                 |
-| 09:30 - 10:00 | 30 mins  | **Derek Lichti** -- Rigorous Object Precision Modelling for Reality Capture Viewpoint Planning |
-| 10:00 - 10:30 | 30 mins  | **Francis Engelmann** -- Foundation Models For 3D Scene Understanding |
-| 10:30 - 11:00 | 30 mins  | **Catherine De Wolf** -- Digital Transformation For Circular Construction  |
-| 11:00 - 11:15 | 15 mins  | _Coffee Break_                                                         |
-| 11:15 - 11:45 | 30 mins  | **Afshin Dehghan** -- Apple LiDAR and Advanced Parametric Scene Representation: RoomPlan and Beyond |
-| 11:45 - 12:45 | 60 mins  | Oral Session                                                           |
-| 12:45 - 14:15 | 90 mins  | Poster Session (Arch Building Exhibit Hall, posters #40-49) & _Lunch Break_                                         | 
-| 14:15 - 14:45 | 30 mins  | Challenge Winner Presentations and Awards                              |
-| 14:45 - 15:15 | 30 mins  | **Caitlin Mueller** -- Designing With Data For A Sustainable Built Environment |
-| 15:15 - 15:45 | 30 mins  | **Yuanbo (Amber) Xiangli** -- Pack Built Environments into Neural Fields |
-| 15:45 - 16:45 | 60 mins  | _Panel Discussion_                                                     |
-| 16:45 - 17:00 | 15 mins  | _Concluding Remarks_                                                   |
+| Time          | Duration  | Session                                                               |
+|---------------|-----------|-----------------------------------------------------------------------|
+| 0:00 -- 0:10  | 10 mins   | Welcome & Introduction                                                |
+| 0:10 -- 0:40  | 30 mins   | **Keynote 1**                                                         |
+| 0:40 -- 1:10  | 30 mins   | **Keynote 2**                                                         |
+| 1:10 -- 1:50  | 40 mins   | Challenge Winners Session (10 min intro + 30 min presentations)       |
+| 1:50 -- 2:30  | 40 mins   | _Poster Session + Coffee Break_                                       |
+| 2:30 -- 3:00  | 30 mins   | **Keynote 3**                                                         |
+| 3:00 -- 3:30  | 30 mins   | **Keynote 4**                                                         |
+| 3:30 -- 4:00  | 30 mins   | Oral Presentations (Best papers)                                      |
+| 4:00          | 5-10 mins | _Conclusion & Closing Remarks_                                        |
 
 ---
 
@@ -78,206 +85,105 @@ The workshop took place on **18 June 2024** from **09:00 - 17:00 PDT**. The reco
 <div class="container">
 
 <figure>
-    <a href="https://www.afshindehghan.com/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2024/afshindehghan.jpg" alt="Afshin Dehghan"/></a>
-    <b><br><a href="https://www.afshindehghan.com/">Afshin Dehghan</a>
-    <br>Machine Learning Manager <br>Apple</b>
+    <a href="https://engineering.nyu.edu/faculty/semiha-ergan">
+    <img class="img-author" src="assets/imgs/authors/cvpr2026/semihaergan.png" alt="Semiha Ergan"/></a>
+    <b><br><a href="https://engineering.nyu.edu/faculty/semiha-ergan">Semiha Ergan</a>
+    <br>Professor, CEE & CSE <br>NYU</b>
 </figure>
 
 <figure>
-    <a href="https://www.catherinedewolf.com/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2024/catherinedewolf.jpeg" alt="Catherine De Wolf"/></a>
-    <b><br><a href="https://www.catherinedewolf.com/">Catherine De Wolf</a>
+    <a href="https://prs.igp.ethz.ch/group/people/person-detail.schindler.html">
+    <img class="img-author" src="assets/imgs/authors/cvpr2026/konradschindler.png" alt="Konrad Schindler"/></a>
+    <b><br><a href="https://prs.igp.ethz.ch/group/people/person-detail.schindler.html">Konrad Schindler</a>
     <br>Professor, CEE <br>ETH Zurich</b>
 </figure>
 
 <figure>
-    <a href="https://francisengelmann.github.io/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2024/francisengelmann.jpeg" alt="Francis Engelmann" > </a>
-    <b><br><a href="https://francisengelmann.github.io/">Francis Engelmann</a>
-    <br>PostDoc, CS <br>ETH Zurich</b>
+    <a href="https://www.cs.princeton.edu/~jiadeng/">
+    <img class="img-author" src="assets/imgs/authors/cvpr2026/jiadeng.png" alt="Jia Deng"/></a>
+    <b><br><a href="https://www.cs.princeton.edu/~jiadeng/">Jia Deng</a>
+    <br>Professor, CS <br>Princeton</b>
 </figure>
 
 <figure>
-    <a href="https://www.geo-week.com/advisor/derek-lichti/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2024/dereklichti.jpeg" alt="Derek Lichti"/></a>
-    <b><br><a href="https://www.geo-week.com/advisor/derek-lichti/">Derek Lichti</a>
-    <br>Professor, Geomatics <br>University of Calgary</b>
-</figure>
-
-<figure>
-    <a href="https://cee.mit.edu/people_individual/caitlin-mueller/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2024/caitlinmueller.jpg" alt="Caitlin Mueller"/></a>
-    <b><br><a href="https://cee.mit.edu/people_individual/caitlin-mueller/">Caitlin Mueller</a>
-    <br>Professor, CEE<br>MIT</b>
-</figure>
-
-<figure>
-    <a href="https://kam1107.github.io/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2024/yuanboxiangli.jpeg" alt="Yuanbo (Amber) Xiangli"/></a>
-    <b><br><a href="https://kam1107.github.io/">Yuanbo (Amber) Xiangli</a>
-    <br>Postdoc, CS <br>Cornell</b>
+    <a href="https://jianghz.me/">
+    <img class="img-author" src="assets/imgs/authors/cvpr2026/huaizujiang.png" alt="Huaizu Jiang"/></a>
+    <b><br><a href="https://jianghz.me/">Huaizu Jiang</a>
+    <br>Assistant Professor, CS <br>Northeastern</b>
 </figure>
 
 </div>
 
-[**Afshin Dehghan**](https://www.afshindehghan.com/)
-is a Senior AI/ML Manager at Apple, where he leads a dynamic team dedicated to advancing multimodal perception and reasoning technologies. His team has made significant contributions to the development of several technologies across Apple, such as FaceID, the 2D & 3D Always On perception engine on iPhones, and VisionPro. Additionally, his team has developed Apple’s 3D Parametric Scene Understanding technology, RoomPlan. This feature harnesses the power of liDAR technology in iPhones and iPads, allowing users to effortlessly create 3D floor-plans of their surroundings. More recently, his team has been focusing on multimodal applications that integrate visual, spatial, and contextual data, powered by large models to create more intuitive and powerful computing experiences. Afshin earned his PhD in 2016 under the supervision of Mubarak Shah at the University of Central Florida.
+[**Semiha Ergan**](https://engineering.nyu.edu/faculty/semiha-ergan)
+is a faculty member at the Department of Civil and Urban Engineering and Computer Science and Engineering at New York University, and an associated faculty at the Center for Urban Science and Progress (CUSP). With her background in civil engineering, AI and informatics, she leads the Building Informatics and Visualization Lab (biLAB) at NYU Tandon School of Engineering. BiLAB specializes in utilizing cutting-edge AI and sensing technologies to tackle challenges observed during the design, construction, and operation of facilities. The research team detects, quantifies, and visualizes patterns over time, leveraging data obtained from reality capture technologies (e.g., cameras, laser scanners) and embedded sensing. By exploiting the intersection of BIM, AI, robotics, and manufacturing processes, the lab enhances the scalability and efficiency of construction methods, particularly in modular construction contexts. Her work has been supported by DOE BTO, various programs of NSF, DARPA, and private organizations. Her achievements include NYU's 2023 Distinguished Teacher Award, 2024 Inclusive Excellence Award, and 2015 DARPA Young Faculty Award.
 
-[**Catherine De Wolf**](https://www.catherinedewolf.com/)
-is assistant professor and director of the Chair of Circular Engineering for Architecture (CEA) at ETH Zurich. Her work explores digital innovations such as reality capture and AI to advance the built environment towards a circular economy. She has a dual background in civil engineering and architecture and  completed her PhD at MIT. She is on the steering committee of the Centre for Augmented Computational Design in Architecture, Engineering and Construction (Design++). Catherine is also a faculty at the AI Center, EMPA, the Future Cities Lab, and the National Centre of Competence in Research on Digital Fabrication (DFAB). Additionally, Catherine provides regular consultation on environmental impact assessments for both government entities like the European Commission and engineering design offices such as Arup. Throughout her career, she has gained international experience working at institutions like the University of Cambridge, TU Delft, EPFL, Nanjing University, Kuwait University, and the African Urban Metabolism Network. Her contributions to these projects were often made possible by securing multiple fellowships, including the Swiss Excellence, WBI World Excellence, and Marie Sklodowska-Curie Postdoctoral Fellowships. 
+[**Konrad Schindler**](https://prs.igp.ethz.ch/group/people/person-detail.schindler.html)
+is a professor at the Department of Civil, Environmental and Geomatic Engineering, Institute of Geodesy and Photogrammetry at ETH Zurich. He completed his PhD in Computer Science at Graz University of Technology, Austria in 2003. He has published numerous papers on photogrammetry, remote sensing, computer vision and image interpretation. He has received several best presentation awards including the U.V. Helava Award from ISPRS in 2012 and the Marr Prize Honourable Mention from the IEEE Computer Society in 2013. Konrad has been serving as an Associate Editor of the Journal of Photogrammetry and Remote Sensing of ISPRS since 2011, and was the Technical Commission President of the ISPRS from 2012 to 2016. His research interests include computer vision, photogrammetry, and remote sensing, with a focus on image understanding, information extraction, and 3D reconstruction.
 
-[**Francis Engelmann**](https://francisengelmann.github.io/)
-is a PostDoc with Prof. Marc Pollefeys at ETH Zurich, and a visiting researcher at Google with Federico Tombari. His research interest lie at the intersection of computer vision and deep learning towards open-vocabulary 3D scene understanding with foundation models.
-Francis is a Fellow of the ETH AI Center, the ELLIS Society, and the recipient of the ETHZ Career Seed Award. 
+[**Jia Deng**](https://www.cs.princeton.edu/~jiadeng/)
+is a Professor of Computer Science at Princeton University. His research focuses on computer vision and machine learning. He received his Ph.D. from Princeton University and his B.Eng. from Tsinghua University, both in computer science. He is a recipient of the Sloan Research Fellowship, the NSF CAREER award, the ONR Young Investigator award, an ICCV Marr Prize, a CVPR test-of-time award and two ECCV Best Paper Awards. His recent work demonstrates how procedural and generative approaches can create complex, realistic indoor scenes, bridging vision research and design.
 
-[**Derek Lichti**]("https://www.geo-week.com/advisor/derek-lichti/") 
-is a Professor of Civil Engineering and Computer Science & Technology. Derek Lichti received his Bachelor’s degree in Survey Engineering from Toronto Metropolitan University in 1993 and MSc and PhD degrees in Geomatics Engineering from the University of Calgary in 1996 and 1999, respectively. He is currently Professor in the Department of Geomatics Engineering at the University of Calgary, which he joined in 2008 and served (2013-2018) as Department Head. He is currently ISPRS Congress Director and served (2013-2020) as Editor-in-Chief of the ISPRS Journal of Photogrammetry and Remote Sensing. His research program focuses on imaging metrology: precision 3D reality capture from imaging sensors, principally terrestrial laser scanners and digital cameras. It touches a wide range of applications including the documentation of at-risk cultural heritage sites, as-built modelling of industrial sites, wear and damage assessment in structures and industrial machinery, and dimensional control.
-
-[**Caitlin Mueller**](https://cee.mit.edu/people_individual/caitlin-mueller/) is an Associate Professor at MIT's Department of Architecture and Department of Civil and Environmental Engineering, in the Building Technology Program, where she leads the Digital Structures research group.  She works at the creative interface of architecture, structural engineering, and computation, and focuses on new computational design and digital fabrication methods for innovative, high-performance buildings and structures that empower a more sustainable and equitable future. Mueller holds three degrees from MIT in Architecture, Computation, and Building Technology, and one from Stanford in Structural Engineering.  Her research is funded by federal agencies and industry partners, including the National Science Foundation, FEMA, the MIT Tata Center, the Dar Group, Holcim, Robert McNeel & Associates, and Altair Engineering.  Mueller was awarded the ACADIA Innovative Research Award of Excellence by the Association for Computer Aided Design in Architecture in 2021 and the Diversity Achievement Award from the Association of Collegiate Schools of Architecture in 2022.
-
-[**Yuanbo (Amber) Xiangli**](https://kam1107.github.io/)
-is a postdoc scholar at Cornell University, working with Prof. Noah Snavely. Prior to this, she did her Ph.D at Multimedia Lab, the Chinese University of Hong Kong, supervised by Prof. Dahua Lin. She received her Master degree from University of Oxford and Diploma from the University of Nottingham in Computer Science. Her research interests lie in 3D computer vision and generative modelling. She has been working on photorealistic and efficient large-scale 3D indoor/outdoor scenes rendering, manipulation and generation, leveraging diverse 2D/3D data sources, geographic and architectural information. 
-
-
-## :school: **Accepted Papers** {#accepted-papers}
-1. <strong>Automatic Defurnishing of Indoor Panoramas</strong> [[Project Page](https://matterport.github.io/automatic-defurnishing-of-indoor-panoramas/)] [[arXiv](https://arxiv.org/abs/2405.03682)] <br>
-Mira Slavcheva (Matterport), David Gausebeck (Matterport), Kevin Chen (Matterport), David Buchhofer (Matterport), Azwad Sabik (Matterport), Chen Ma (Matterport), Sachal Dhillon (Matterport), Olaf Brandt (Matterport), Alan Dolhasz (Matterport)
-
-2. <strong>A Two-Stage Masked Autoencoder Based Network for Indoor Depth Completion</strong> [[arXiv](https://arxiv.org/pdf/2406.09792v1)]<br>
-Kailai Sun (National University of Singapore), Zhou Yang (BYD company)
-
-
-3. <strong>ARCH2S: Dataset, Benchmark and Challenges for Learning Exterior Architectural Structures from Point Clouds</strong> [[arXiv](https://arxiv.org/pdf/2406.01337)] <br>
-Ka Lung Cheung (The Chinese University of Hong Kong), Chi Chung Lee (Hong Kong Metropolitan University)
-
-4. <strong>Towards Automating the Retrospective Generation of BIM Models: A Unified Framework for 3D Semantic Reconstruction of the Built Environment</strong> [[arXiv](https://arxiv.org/pdf/2406.01480)]<br>
-Ka Lung Cheung (The Chinese University of Hong Kong), Chi Chung Lee (Hong Kong Metropolitan University)
-
-
-5. <strong>Enhancing Polygonal Building Segmentation via Oriented Corners</strong> [[arXiv](https://arxiv.org/abs/2407.12256)] <br>
-Mohammad Moein Sheikholeslami (York University), Muhammad Kamran (York University), Andreas Wichmann (Jade University of Applied Sciences), Gunho Sohn (York University)
-
-
-6. <strong>Window to Wall Ratio Detection using SegFormer</strong> [[arXiv](https://arxiv.org/abs/2406.02706)] <br> 
-Zoe De Simone (MIT), Sayandeep Biswas (MIT), Oscar Wu (MIT) 
-
-
-7. <strong>An Expeditious Spatial Mean Radiant Temperature Mapping Framework using Visual SLAM and Semantic Segmentation</strong> <br>
-Wei Liang (CMU), Yiting Zhang (CMU), Ji Zhang (CMU), Erica Cochran Hameen (CMU)
-
-
-8. <strong>Zero-Shot Construction Object Detection through Knowledge-based Feature Integrator</strong> <br>
-Maryam Soleymani (Louisiana State University), Mahdi Bonyani (Louisiana State University), Chao Wang (Louisiana State University), Hyun-woo Jeon (Kyung Hee University)
-
-
-9. <strong>Real-time Ergonomic Risk Assessment in Construction Sites through Spatiotemporal Graph Convolution Network</strong> <br>
-Mahdi Bonyani (Louisiana State University), Maryam Soleymani (Louisiana State University), Chao Wang (Louisiana State University), Hyun-woo Jeon (Kyung Hee University)
-
-
-10. <strong>BIM-Module for deep learning-based parametric IFC reconstruction</strong> <br>
-Maarten Bassier (KU Leuven), Sam De Geyter (KU Leuven), Oscar Roman (Bruno Kessler Foundation), Roberto Battisti (Bruno Kessler Foundation), Heinder De Winter (KU Leuven), Gabriele Mazzacca (Bruno Kessler Foundation), Fabio Remondino (Bruno Kessler Foundation)
-
-## :paperclip: **Call for Short Papers** {#papers}
-This year we are inviting as part of the workshop the submission of short papers, which will not appear in the conference proceedings. Accepted papers will be presented in an oral session and will also have a spot in the poster session. 
-
-Short papers range from 3 to 4 pages without references. Submissions should otherwise follow the CVPR 2024 Author Kit provided by the main conference: [CVPR 2024 Auhtor Kit](https://github.com/cvpr-org/author-kit/releases). Papers that are not properly anonymized, or do not use the template, or have more than four pages (excluding references) will be considered for rejection without review.
-
-Link to the submission system : [CMT](https://cmt3.research.microsoft.com/CV4AEC2024/)
-
-Submissions should:
-- Introduce the topic and literature review, discussion on methodology, preliminary results.
-- Motivate and place the topic in relation to the built environment and its specific application, including a comparison to current AEC practice
-- Include a short discussion on considerations of practice, ethics, and organizations, as applicable.
-
-<strong> Topics </strong>: Any topic that can be categorized as Computer Vision applications In The Built Environment For The Design, Construction and Operation of Buildings.
-
-Including but not limited to:
-- Generative design
-- Floorplan reconstruction
-- Indoor layout synthesis
-- Activity recognition (e.g., occupants in a building, workers in a construction site)
-- Semantic 3D understanding (e.g., for renovation or construction)
-- 3D reconstruction (e.g., for renovation or construction)
-- Material understanding
-- Object/Scene localization
-- Scene completion
-- Change detection
-- And more
+[**Huaizu Jiang**](https://jianghz.me/)
+is an assistant professor in the Khoury College of Computer Sciences at Northeastern University. His research interests include computer vision, computational photography, machine learning, natural language processing, and artificial intelligence. Prior to joining Northeastern University, he was a Postdoc Researcher at Caltech and a Visiting Researcher at NVIDIA. He obtained his Ph.D. from UMass Amherst, advised by Prof. Erik Learned-Miller. His awards include the 2019-2020 NVIDIA Graduate Fellowship, 2019 Adobe Fellowship, and 2018 Outstanding Reviewer at IEEE/CVF CVPR. His recent work demonstrates how generative vision models can transform 2D building plans into realistic 3D environments, bridging perception and design.
 
 ---
 
-## :postbox: **Instructions for Presentation and Poster** {#instructions}
+## :paperclip: **Call for Papers** {#papers}
 
-PRESENTATIONS:
-- The oral session will take place 11:45AM - 12:45PM in the workshop room. 
-- Each oral presentation will be 5 minutes with no Q&A. Participants will be encouraged to ask questions to presenters during the poster session. 
-- We will use the organizers’ laptop to present all papers for smooth transition. Please upload a power point of your presentation using the following link the latest by **June 15th, 23:59 PT**: [Google form](https://forms.gle/MoKAB3GK9VtJsoSCA)
-- We hope that you used the reviewers’ feedback to improve on minor revisions and that you will present an updated version during the workshop.
+We invite submissions exploring the intersection of Computer Vision and the Built Environment, focusing on applications that transform how we understand, model, and design buildings and construction sites. Construction sites and building lifecycles are dynamic, complex, and data-rich, providing an ideal real-world testbed for advancing computer vision methods while generating actionable insights for design, sustainability, and circular practices.
 
-POSTERS:
-- The poster session will take place together with the lunch break 12:45 - 2:15 PM
-- All posters will be in the Arch Building Exhibit Hall and labeled per workshop.
-- The maximum poster size is 4x8 and there is an onsite printing option (not mandatory). More information at: [CVPR website](https://cvprworkshop.myprintdesk.net/DSF/SmartStore.aspx#!/Storefront)
-- DO NOT SUBMIT A WORKSHOP PAPER TO THE MAIN CONFERENCE PRINT SITE - IT WILL BE REJECTED.
-- If you have a question, need to re-submit a file or need a receipt, please contact the provider directly atdsf.team@e-arc.com
-- In the poster room, there will be tables but no power outlets.
+Both **short non-archival papers (4 pages)** and **long archival papers (8 pages)** are welcome. Submissions should:
+- Introduce the topic and review related literature.
+- Present methodology, experiments, and results.
+- Situate the work in the context of real-world AEC applications, highlighting potential improvements over current practice.
+- Include discussion of practical, ethical, and organizational considerations, when relevant.
 
-## :checkered_flag: **Challenge** {#challenge}
-The workshop will host the 4th International Scan-to-BIM challenge. The challenge will include the following tasks:
+The best two long archival papers and the best short non-archival paper will be presented during the workshop in the Oral Presentation session.
 
-I. 2D Floorplan Reconstruction \
-II. 3D Building Model Reconstruction
+We also accept papers submitted to the main conference and accepted as long non-archival papers (8 pages). Please indicate on the manuscript submission that it is accepted at the main conference.
 
-**[[GitHub](https://github.com/GradientSpaces/cv4aec-challenge)] --- [[2D Challenge](https://codalab.lisn.upsaclay.fr/competitions/18523)] --- [[3D Challenge](https://codalab.lisn.upsaclay.fr/competitions/18526)]**
-{: .text-center}
+<strong>Topics</strong> include but are not limited to:
+- Generative design and predictive modeling, including those informed by evolving data or other physical constraints.
+- Floorplan reconstruction, indoor layout synthesis, and 3D scene generation.
+- Activity recognition on construction sites or within occupied buildings.
+- Semantic 3D/4D understanding for construction monitoring, renovation, or modular design related tasks.
+- Large-scale 3D reconstruction of evolving sites and temporally dynamic environments.
+- Material, component, and object understanding to support reuse and circular economy practices.
+- Object and scene localization, mapping, scene completion, and change detection across evolving phases.
+- Multimodal integration of 3D geometry, imagery, sensors, and text-based documentation to inform design and operational decisions.
 
-### 2D Floor Plan Reconstruction
-
-The 2D Floorplan Reconstruction challenge contains a total of 31 buildings with multiple floors each and dozens of rooms on each floor. Of which, 20 buildings are designated as the training set, with a total of 49 point clouds. The validation and testing sets contain 5.5 buildings with 21 point clouds each. For each model, there is an aligned point cloud in LAZ format. For the training and validation sets, a corresponding floorplan aligned with the coordinate system of the point cloud is also provided. The challenge data and evaluation code can be found in this **[Github repository](https://github.com/GradientSpaces/cv4aec-challenge)**. The submission should be made in the same JSON format as in the provided ground truth. We include metrics to evaluate the reconstruction of the walls, doors, and columns, as well as floor area in 2D : 
-
-1. **Geometric Metrics** \
-    a. _IoU_ of each room (a room is defined as a completely separated area with walls and doors). \
-    b. _Accuracy of endpoints_ : Precision/Recall at 3 different thresholds: 5cm, 10cm and 20cm, as well as the F-measure at each threshold will be evaluated in the coordinate system of the point cloud. The provided endpoints will be matched with the Hungarian algorithm to the point cloud, and every point that is within a certain threshold will be determined as a match. \
-    c. _Orientation_ For each matched line between the ground truth, we will compute the cosine similarity metric between them as the normalized dot product. If a line is not matched with ground truth, the cosine metric will be zero. Finally, the metric will be averaged over all the ground truth lines.
-
-2. **Topological Metrics** \
-    a. _[Warping error](https://ieeexplore.ieee.org/document/5539950)_ : The warping error will first warp the predicted floorplan to the ground truth with a homotopic deformation, and then compute the pixels that cannot match after the deformation. \
-    b. **_Betti number error_** : The Betti number error will compare the Betti numbers between the prediction and the ground truth and output the absolute value of the difference.
-
-### 3D Building Model Reconstruction
-
-The training data consists of 16 floors from 8 buildings. For each model, there is an aligned point cloud in LAZ format. The 3D building coordinates for walls, columns and doors are presented in 3 separate JSON files. We focus on the reconstruction of walls, columns, and doors. The challenge data and evaluation code can be found in this **[Github repository](https://github.com/GradientSpaces/cv4aec-challenge)**. The submission should be made in the same JSON format as in the provided ground truth. We evaluate the submissions on a variety of metrics : 
-
-1. **3D IoU** of the 3D bounding box of each wall
-2. **Accuracy of the endpoints** : Precision/Recall at 3 different thresholds: 5cm, 10cm and 20cm, as well as F-measure will be evaluated in the coordinate system of the point cloud. The provided endpoints will be matched with the Hungarian algorithm to the point cloud, and every point that is within a certain threshold will be determined as a match. We evaluate per each of the three semantic types (i.e., wall, column, door).
-
-> We would like to note that ALL the submissions **need to be constructed automatically**. Manual reconstructions are against the spirit of this challenge and will not be allowed.
+Each submission will be reviewed by at least two program committee members, chosen to provide complementary expertise across computer vision and AEC domains.
 
 ---
 
-## :trophy: **Challenge Winners** {#winners}
-### 2D Floor Plan Reconstruction
+## :checkered_flag: **Nothing Stands Still Challenge** {#challenge}
 
-| Team           | Precision (5cm) | Precision (10cm) | Precision (20cm) | Recall(5cm) | Recall(10cm) | Recall (20cm) | IoU  | Warping Error | Betting Error |
-|----------------|-----------------|------------------|------------------|-------------|--------------|---------------|------|---------------|---------------|
-| HKU-iLab-2D    | 0.031           | 0.060            | 0.093            | 0.192       | 0.347        | 0.510         | 0.563| 0.221         | 1.308         |
+The workshop will host the **2026 Nothing Stands Still (NSS) Dataset Challenge**, introducing a unique real-world testbed for computer vision research. Previously run as part of a robotics conference workshop, the NSS challenge is now joining the computer vision community for the first time, reflecting its relevance for understanding complex, dynamic environments at scale. Full details from prior challenges are available at: **[nothing-stands-still.com/challenge](https://nothing-stands-still.com/challenge)**
 
-### 3D Building Model Reconstruction
+The challenge focuses on **spatiotemporal 3D point cloud registration** of evolving construction sites, which feature dramatic changes in geometry, topology, and appearance over time. These dynamic environments make construction sites an ideal testbed for cutting-edge computer vision tasks, including scene reconstruction, semantic understanding, predictive modeling, and temporal reasoning. To expand the scope of the challenge, we aim to add semantic annotations, enabling participants to reason not only about geometry but also about functional elements, building components, and how they evolve over time.
 
-| Team            | Average IoU | Columns IoU | Doors IoU | Walls IoU | 5cm Average F1 | 10cm Average F1 | 20cm Average F1 | 10cm Columns F1 | 10cm Doors F1 | 10cm Walls F1 |
-|-----------------|-------------|-------------|-----------|-----------|----------------|-----------------|-----------------|-----------------|---------------|---------------|
-| HKU-iLab-3D     | 0.450       | 0.475       | 0.524     | 0.362     | 0.466          | 0.567           | 0.646           | 0.600           | 0.586         | 0.528         |
-| KUL-FBK         | 0.270       | 0.304       | 0.231     | 0.291     | 0.327          | 0.423           | 0.500           | 0.488           | 0.376         | 0.425         |
-| HumanTech       | 0.241       | 0.357       | 0.172     | 0.243     | 0.314          | 0.444           | 0.550           | 0.643           | 0.258         | 0.515         |
+<!-- ![NSS Benchmark](assets/imgs/nss_benchmark.png) -->
+<!-- *Figure 1. The Nothing Stands Still benchmark evaluates both pairwise and multi-way spatiotemporal 3D point cloud registration.* -->
 
+### Evaluation
 
+- **Spatiotemporal registration task:** Submissions will be evaluated using a **global RMSE metric**, providing a standardized measure for comparing performance across methods.
+- **Spatiotemporal semantic understanding task:** Methods will be evaluated on standard segmentation metrics, as well as temporal counterparts.
 
-### **Teams**
- * **HKU-iLab-2D**: Longyong Wu, Ziqi Li, Meng Sun, Fan Xue; Department of Real Estate and Construction, The University of Hong Kong
- * **HKU-iLab-3D**: Siyuan Meng, Sou-Han Chen, Jiajia Wang, Fan Xue; Department of Real Estate and Construction, The University of Hong Kong
- * **KUL-FBK**: Maarten Bassier, Sam De Geyter, Heinder De Winter, Roberto Battisti, Oscar Roman; KU Leuven Department of Civil Engineering, Geomatics Section, Faculty of Engineering Technology, Ghent, Belgium & Bruno Kessler Foundation (FBK), Trento, Italy
- * **HumanTech**: Mahdi Chamseddine, Fabian Kaufmann, Jason Rambach; DFKI and RPTU in Kaiserslautern, Germany
+### Challenge Timeline
+
+| Milestone | Date |
+|-----------|------|
+| Dataset Release & Registration Opens | January 15, 2026 |
+| Submission Window Opens (evaluation server live) | February 15, 2026 |
+| Submission Deadline | April 30, 2026 |
+| Review & Evaluation | April 30 -- May 4, 2026 |
+| Notification of Challenge Winners | May 5, 2026 |
+| Workshop Presentation & Awards | June 3, 2026 |
+
+> **Ethical Note:** All construction sites in the dataset are located in North America, which may limit the generalization of models trained on this data. Participants are encouraged to consider methods for robust and fair modeling across varied environments.
+
+By combining dynamic geometry, large-scale scene evolution, and future semantic reasoning, the NSS challenge offers the CV community a rigorous, high-impact platform to test algorithms in scenarios that closely mimic real-world challenges in construction, renovation, and modular building reuse --- bridging the gap between technical innovation and tangible societal impact.
 
 ---
 
@@ -285,103 +191,65 @@ The training data consists of 16 floors from 8 buildings. For each model, there 
 Contact the organisers at **[cv4aec.3d@gmail.com](mailto:cv4aec.3d@gmail.com)**
 
 ---
+
 # **Organizers** {#organizers}
-## :construction_worker: **Senior Organizers** {#senior-organizers}
 <div class="container">
+
 <figure>
     <a href="https://ir0.github.io/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2023/iroarmeni.jpg" alt="Iro Armeni"/></a>
+    <img class="img-author" src="assets/imgs/authors/organizers/iroarmeni.jpg" alt="Iro Armeni"/></a>
     <b><br><a href="https://ir0.github.io/">Iro Armeni</a>
-    <br>Professor, CEE  <br> Stanford</b>
-</figure>
-
-<figure>
-    <a href="https://www.linkedin.com/in/erzhuo-ezra-che-40888137/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2023/erzhuoche.jpeg" alt="Iro Armeni"/></a>
-    <b><br><a href="https://www.linkedin.com/in/erzhuo-ezra-che-40888137/">Erzhuo Che</a>
-    <br>Assistant Professor (Senior Research), CEE <br> Oregon State</b>
-</figure>
-
-<figure>
-    <a href="https://web.stanford.edu/~fischer/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2023/martinfischer.jpg" alt="Martin Fischer"/></a>
-    <b><br><a href="https://web.stanford.edu/~fischer/">Martin Fischer</a>
-    <br>Professor, CEE <br> Stanford</b>
-</figure>
-
-<figure>
-    <a href="https://fcl.ethz.ch/people/Module-Lead/daniel-hall.html#:~:text=Dr%20Daniel%20Hall%20is%20co,Geomatic%20Engineering%20at%20ETH%20Z%C3%BCrich.">
-    <img class="img-author" src="assets/imgs/authors/cvpr2023/danielhall.jpeg" alt="Daniel Hall"/></a>
-    <b><br><a href="https://fcl.ethz.ch/people/Module-Lead/daniel-hall.html#:~:text=Dr%20Daniel%20Hall%20is%20co,Geomatic%20Engineering%20at%20ETH%20Z%C3%BCrich.">Daniel Hall</a>
-    <br>Assistant Professor, CEE <br> ETHZ</b>
-</figure>
-
-<figure>
-    <a href="https://research.engr.oregonstate.edu/geomatics/faculty-members">
-    <img class="img-author" src="assets/imgs/authors/cvpr2023/jaehoonjung.jpeg" alt="Jaehoon Jung"/></a>
-    <b><br><a href="https://research.engr.oregonstate.edu/geomatics/faculty-members">Jaehoon Jung</a>
-    <br>Assistant Professor (Senior Research), CEE <br> Oregon State</b>
+    <br>Assistant Professor, CEE <br>Stanford</b>
 </figure>
 
 <figure>
     <a href="http://web.engr.oregonstate.edu/~lif/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2023/fuxinli.jpg" alt="Fuxin Li"/></a>
+    <img class="img-author" src="assets/imgs/authors/organizers/fuxinli.jpg" alt="Fuxin Li"/></a>
     <b><br><a href="http://web.engr.oregonstate.edu/~lif/">Fuxin Li</a>
-    <br>Associate Professor, CS <br> Oregon State</b>
+    <br>Associate Professor, CS <br>Oregon State</b>
 </figure>
 
 <figure>
-    <a href="https://directory.forestry.oregonstate.edu/people/olsen-michael">
-    <img class="img-author" src="assets/imgs/authors/cvpr2023/michaelolsen.jpg" alt="Michael Olsen"/></a>
-    <b><br><a href="https://directory.forestry.oregonstate.edu/people/olsen-michael">Michael Olsen</a>
-    <br>Associate Professor, CEE <br> Oregon State</b>
+    <a href="https://cce.oregonstate.edu/olsen">
+    <img class="img-author" src="assets/imgs/authors/organizers/michaelolsen.jpg" alt="Michael Olsen"/></a>
+    <b><br><a href="https://cce.oregonstate.edu/olsen">Michael Olsen</a>
+    <br>Dean's Professor, CCE <br>Oregon State</b>
+</figure>
+
+<figure>
+    <a href="https://engineering.oregonstate.edu/people/yelda-turkan">
+    <img class="img-author" src="assets/imgs/authors/organizers/yeldaturkan.jpg" alt="Yelda Turkan"/></a>
+    <b><br><a href="https://engineering.oregonstate.edu/people/yelda-turkan">Yelda Turkan</a>
+    <br>Associate Professor, CCE <br>Oregon State</b>
 </figure>
 
 <figure>
     <a href="https://people.inf.ethz.ch/pomarc/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2023/marcpollefeys.jpeg" alt="Marc Pollefeys"/></a>
+    <img class="img-author" src="assets/imgs/authors/organizers/marcpollefeys.jpeg" alt="Marc Pollefeys"/></a>
     <b><br><a href="https://people.inf.ethz.ch/pomarc/">Marc Pollefeys</a>
-    <br>Professor, CS <br> ETHZ</b>
+    <br>Professor, CS <br>ETH Zurich</b>
 </figure>
 
-<figure>
-    <a href="https://cce.oregonstate.edu/turkan">
-    <img class="img-author" src="assets/imgs/authors/cvpr2023/yeldaturkan.jpg" alt="Yelda Turkan"/></a>
-    <b><br><a href="https://cce.oregonstate.edu/turkan">Yelda Turkan</a>
-    <br>Assistant Professor, CEE <br> Oregon State</b>
-</figure>
-
-<figure>
-    <a href="https://www.linkedin.com/in/heidar-rastiveis/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2024/heidarrastiveis.jpg" alt="Heidar Rastiveis"/></a>
-    <b><br><a href="https://www.linkedin.com/in/heidar-rastiveis/">Heidar Rastiveis</a>
-    <br>Assistant Professor (Senior Research), CEE <br> Oregon State</b>
-</figure>
-
-
-</div>
-
-## :grimacing: **Student Organizers** {#student-organizers}
-<div class="container">
 <figure>
     <a href="https://sayands.github.io/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2023/sayandebsarkar.jpg" alt="Sayan Deb Sarkar"/></a>
+    <img class="img-author" src="assets/imgs/authors/organizers/sayandebsarkar.jpg" alt="Sayan Deb Sarkar"/></a>
     <b><br><a href="https://sayands.github.io/">Sayan Deb Sarkar</a>
-    <br>MSc CS <br> ETHZ</b>
+    <br>PhD, CEE <br>Stanford</b>
 </figure>
 
 <figure>
-    <a href="https://antonskoltech.github.io/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2023/antonegorov.jpeg" alt="Anton Egorov"/></a>
-    <b><br><a href="https://antonskoltech.github.io/">Anton Egorov</a>
-    <br>Research Assistant <br> Oregon State </b>
+    <a href="#">
+    <img class="img-author" src="assets/imgs/authors/organizers/emilysteiner.jpg" alt="Emily Steiner"/></a>
+    <b><br><a href="https://www.easteine.com/">Emily Steiner</a>
+    <br>PhD, EE <br>Stanford</b>
 </figure>
 
 <figure>
-    <a href="https://www.linkedin.com/in/mohsen-arjmand-591388b9/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2024/mohsenarjmand.jpg" alt="Mohsen Arjmand"/></a>
-    <b><br><a href="https://www.linkedin.com/in/mohsen-arjmand-591388b9/">Mohsen Arjmand</a>
-    <br>PhD, CEE <br> Oregon State</b>
+    <a href="https://taosun.io">
+    <img class="img-author" src="assets/imgs/authors/organizers/taosun.jpg" alt="Tao Sun"/></a>
+    <b><br><a href="https://taosun.io">Tao Sun</a>
+    <br>PhD, CEE <br>Stanford</b>
 </figure>
 
 </div>
+
