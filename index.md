@@ -203,13 +203,6 @@ Contact the organisers at **[cv4aec.3d@gmail.com](mailto:cv4aec.3d@gmail.com)**
 </figure>
 
 <figure>
-    <a href="https://sayands.github.io/">
-    <img class="img-author" src="assets/imgs/authors/organizers/sayandebsarkar.jpg" alt="Sayan Deb Sarkar"/></a>
-    <b><br><a href="https://sayands.github.io/">Sayan Deb Sarkar</a>
-    <br>PhD <br>Stanford</b>
-</figure>
-
-<figure>
     <a href="http://web.engr.oregonstate.edu/~lif/">
     <img class="img-author" src="assets/imgs/authors/organizers/fuxinli.jpg" alt="Fuxin Li"/></a>
     <b><br><a href="http://web.engr.oregonstate.edu/~lif/">Fuxin Li</a>
@@ -231,6 +224,20 @@ Contact the organisers at **[cv4aec.3d@gmail.com](mailto:cv4aec.3d@gmail.com)**
 </figure>
 
 <figure>
+    <a href="https://engineering.oregonstate.edu/people/yelda-turkan">
+    <img class="img-author" src="assets/imgs/authors/organizers/yeldaturkan.jpg" alt="Yelda Turkan"/></a>
+    <b><br><a href="https://engineering.oregonstate.edu/people/yelda-turkan">Yelda Turkan</a>
+    <br>Associate Professor <br>Oregon State</b>
+</figure>
+
+<figure>
+    <a href="https://sayands.github.io/">
+    <img class="img-author" src="assets/imgs/authors/organizers/sayandebsarkar.jpg" alt="Sayan Deb Sarkar"/></a>
+    <b><br><a href="https://sayands.github.io/">Sayan Deb Sarkar</a>
+    <br>PhD <br>Stanford</b>
+</figure>
+
+<figure>
     <a href="#">
     <img class="img-author" src="assets/imgs/authors/organizers/emilysteiner.jpg" alt="Emily Steiner"/></a>
     <b><br><a href="https://www.easteine.com/">Emily Steiner</a>
@@ -242,13 +249,6 @@ Contact the organisers at **[cv4aec.3d@gmail.com](mailto:cv4aec.3d@gmail.com)**
     <img class="img-author" src="assets/imgs/authors/organizers/taosun.jpg" alt="Tao Sun"/></a>
     <b><br><a href="https://taosun.io">Tao Sun</a>
     <br>PhD <br>Stanford</b>
-</figure>
-
-<figure>
-    <a href="https://engineering.oregonstate.edu/people/yelda-turkan">
-    <img class="img-author" src="assets/imgs/authors/organizers/yeldaturkan.jpg" alt="Yelda Turkan"/></a>
-    <b><br><a href="https://engineering.oregonstate.edu/people/yelda-turkan">Yelda Turkan</a>
-    <br>Associate Professor <br>Oregon State</b>
 </figure>
 
 </div>
