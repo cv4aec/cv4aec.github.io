@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Computer Vision for the Built World
-description: CV4AEC @ CVPR 2026 (3 June 2026)
+description: CV4AEC @ CVPR 2026 (Date TBD)
 ---
 
 <p style="text-align: center; margin-bottom: 1.5em;">:wave: Welcome to the <strong>5<sup>th</sup> Workshop on
@@ -42,7 +42,7 @@ The workshop will consist of: invited <a href="#speakers" target="_self">keynote
 
 <strong><u>Archival Paper Submission (8 pages)</u></strong>
 - **15 Jan 2026 ---** Submissions open
-- **7 Mar 2026 ---** Submission deadline
+- **15 Mar 2026 ---** Submission deadline
 - **20 Mar 2026 ---** Final decisions / Reviews sent
 - **10 Apr 2026 ---** Camera ready deadline
 
@@ -57,12 +57,12 @@ The workshop will consist of: invited <a href="#speakers" target="_self">keynote
 - **30 Apr 2026 ---** Challenge submission deadline
 - **30 Apr -- 4 May 2026 ---** Review & Evaluation
 - **5 May 2026 ---** Notification of challenge winners
-- **3 Jun 2026 ---** CV4AEC Workshop @ CVPR 2026
+- **TBD ---** CV4AEC Workshop @ CVPR 2026
 
 ---
 
 ## :calendar: **Schedule** {#schedule}
-The workshop will take place on **3 June 2026** as a **half-day in-person event (4 hours)**.
+The workshop will take place on a **date TBD** as a **half-day in-person event (4 hours)**.
 
 > **NOTE**: The schedule is tentative. Exact times will be updated closer to the workshop date.
 
@@ -85,24 +85,17 @@ The workshop will take place on **3 June 2026** as a **half-day in-person event 
 <div class="container">
 
 <figure>
-    <a href="https://engineering.nyu.edu/faculty/semiha-ergan">
-    <img class="img-author" src="assets/imgs/authors/cvpr2026/semihaergan.png" alt="Semiha Ergan"/></a>
-    <b><br><a href="https://engineering.nyu.edu/faculty/semiha-ergan">Semiha Ergan</a>
-    <br>Professor, CEE & CSE <br>NYU</b>
-</figure>
-
-<figure>
-    <a href="https://prs.igp.ethz.ch/group/people/person-detail.schindler.html">
-    <img class="img-author" src="assets/imgs/authors/cvpr2026/konradschindler.png" alt="Konrad Schindler"/></a>
-    <b><br><a href="https://prs.igp.ethz.ch/group/people/person-detail.schindler.html">Konrad Schindler</a>
-    <br>Professor, CEE <br>ETH Zurich</b>
-</figure>
-
-<figure>
     <a href="https://www.cs.princeton.edu/~jiadeng/">
     <img class="img-author" src="assets/imgs/authors/cvpr2026/jiadeng.png" alt="Jia Deng"/></a>
     <b><br><a href="https://www.cs.princeton.edu/~jiadeng/">Jia Deng</a>
     <br>Professor, CS <br>Princeton</b>
+</figure>
+
+<figure>
+    <a href="https://engineering.nyu.edu/faculty/semiha-ergan">
+    <img class="img-author" src="assets/imgs/authors/cvpr2026/semihaergan.png" alt="Semiha Ergan"/></a>
+    <b><br><a href="https://engineering.nyu.edu/faculty/semiha-ergan">Semiha Ergan</a>
+    <br>Professor, CEE & CSE <br>NYU</b>
 </figure>
 
 <figure>
@@ -112,19 +105,26 @@ The workshop will take place on **3 June 2026** as a **half-day in-person event 
     <br>Assistant Professor, CS <br>Northeastern</b>
 </figure>
 
+<figure>
+    <a href="https://engineering.nyu.edu/faculty/debra-laefer">
+    <img class="img-author" src="assets/imgs/authors/cvpr2026/debralaefer.png" alt="Debra Laefer"/></a>
+    <b><br><a href="https://engineering.nyu.edu/faculty/debra-laefer">Debra Laefer</a>
+    <br>Professor, Urban Informatics <br>NYU</b>
+</figure>
+
 </div>
-
-[**Semiha Ergan**](https://engineering.nyu.edu/faculty/semiha-ergan)
-is a faculty member at the Department of Civil and Urban Engineering and Computer Science and Engineering at New York University, and an associated faculty at the Center for Urban Science and Progress (CUSP). With her background in civil engineering, AI and informatics, she leads the Building Informatics and Visualization Lab (biLAB) at NYU Tandon School of Engineering. BiLAB specializes in utilizing cutting-edge AI and sensing technologies to tackle challenges observed during the design, construction, and operation of facilities. The research team detects, quantifies, and visualizes patterns over time, leveraging data obtained from reality capture technologies (e.g., cameras, laser scanners) and embedded sensing. By exploiting the intersection of BIM, AI, robotics, and manufacturing processes, the lab enhances the scalability and efficiency of construction methods, particularly in modular construction contexts. Her work has been supported by DOE BTO, various programs of NSF, DARPA, and private organizations. Her achievements include NYU's 2023 Distinguished Teacher Award, 2024 Inclusive Excellence Award, and 2015 DARPA Young Faculty Award.
-
-[**Konrad Schindler**](https://prs.igp.ethz.ch/group/people/person-detail.schindler.html)
-is a professor at the Department of Civil, Environmental and Geomatic Engineering, Institute of Geodesy and Photogrammetry at ETH Zurich. He completed his PhD in Computer Science at Graz University of Technology, Austria in 2003. He has published numerous papers on photogrammetry, remote sensing, computer vision and image interpretation. He has received several best presentation awards including the U.V. Helava Award from ISPRS in 2012 and the Marr Prize Honourable Mention from the IEEE Computer Society in 2013. Konrad has been serving as an Associate Editor of the Journal of Photogrammetry and Remote Sensing of ISPRS since 2011, and was the Technical Commission President of the ISPRS from 2012 to 2016. His research interests include computer vision, photogrammetry, and remote sensing, with a focus on image understanding, information extraction, and 3D reconstruction.
 
 [**Jia Deng**](https://www.cs.princeton.edu/~jiadeng/)
 is a Professor of Computer Science at Princeton University. His research focuses on computer vision and machine learning. He received his Ph.D. from Princeton University and his B.Eng. from Tsinghua University, both in computer science. He is a recipient of the Sloan Research Fellowship, the NSF CAREER award, the ONR Young Investigator award, an ICCV Marr Prize, a CVPR test-of-time award and two ECCV Best Paper Awards. His recent work demonstrates how procedural and generative approaches can create complex, realistic indoor scenes, bridging vision research and design.
 
+[**Semiha Ergan**](https://engineering.nyu.edu/faculty/semiha-ergan)
+is a faculty member at the Department of Civil and Urban Engineering and Computer Science and Engineering at New York University, and an associated faculty at the Center for Urban Science and Progress (CUSP). With her background in civil engineering, AI and informatics, she leads the Building Informatics and Visualization Lab (biLAB) at NYU Tandon School of Engineering. BiLAB specializes in utilizing cutting-edge AI and sensing technologies to tackle challenges observed during the design, construction, and operation of facilities. The research team detects, quantifies, and visualizes patterns over time, leveraging data obtained from reality capture technologies (e.g., cameras, laser scanners) and embedded sensing. By exploiting the intersection of BIM, AI, robotics, and manufacturing processes, the lab enhances the scalability and efficiency of construction methods, particularly in modular construction contexts. Her work has been supported by DOE BTO, various programs of NSF, DARPA, and private organizations. Her achievements include NYU's 2023 Distinguished Teacher Award, 2024 Inclusive Excellence Award, and 2015 DARPA Young Faculty Award.
+
 [**Huaizu Jiang**](https://jianghz.me/)
 is an assistant professor in the Khoury College of Computer Sciences at Northeastern University. His research interests include computer vision, computational photography, machine learning, natural language processing, and artificial intelligence. Prior to joining Northeastern University, he was a Postdoc Researcher at Caltech and a Visiting Researcher at NVIDIA. He obtained his Ph.D. from UMass Amherst, advised by Prof. Erik Learned-Miller. His awards include the 2019-2020 NVIDIA Graduate Fellowship, 2019 Adobe Fellowship, and 2018 Outstanding Reviewer at IEEE/CVF CVPR. His recent work demonstrates how generative vision models can transform 2D building plans into realistic 3D environments, bridging perception and design.
+
+[**Debra Laefer**](https://engineering.nyu.edu/faculty/debra-laefer)
+is a Full Professor of Urban Informatics, jointly appointed at New York University's Center for Urban Science and Progress and its Department of Civil and Urban Engineering. With degrees from the University of Illinois Urbana-Champaign (MS, Ph.D.), NYU (MEng), and Columbia University (BS, BA), Prof. Laefer has a wide-ranging urban research background applied through the lens of remote sensing, civil engineering, and historic preservation. Her work often stands at the cross-roads of technology creation and community values such as devising technical solutions for protecting architecturally significant buildings from subsurface construction and subsurface utility network generation. Prof. Laefer and her Urban Modeling Group pioneer computationally efficient storage, querying, and visualization strategies that harness distributed computing-based solutions and bridge the gap between LiDAR and hyperspectral data availability and its usability for the engineering community.
 
 ---
 
@@ -179,7 +179,7 @@ The challenge focuses on **spatiotemporal 3D point cloud registration** of evolv
 | Submission Deadline | April 30, 2026 |
 | Review & Evaluation | April 30 -- May 4, 2026 |
 | Notification of Challenge Winners | May 5, 2026 |
-| Workshop Presentation & Awards | June 3, 2026 |
+| Workshop Presentation & Awards | TBD |
 
 > **Ethical Note:** All construction sites in the dataset are located in North America, which may limit the generalization of models trained on this data. Participants are encouraged to consider methods for robust and fair modeling across varied environments.
 
@@ -199,56 +199,56 @@ Contact the organisers at **[cv4aec.3d@gmail.com](mailto:cv4aec.3d@gmail.com)**
     <a href="https://ir0.github.io/">
     <img class="img-author" src="assets/imgs/authors/organizers/iroarmeni.jpg" alt="Iro Armeni"/></a>
     <b><br><a href="https://ir0.github.io/">Iro Armeni</a>
-    <br>Assistant Professor, CEE <br>Stanford</b>
-</figure>
-
-<figure>
-    <a href="http://web.engr.oregonstate.edu/~lif/">
-    <img class="img-author" src="assets/imgs/authors/organizers/fuxinli.jpg" alt="Fuxin Li"/></a>
-    <b><br><a href="http://web.engr.oregonstate.edu/~lif/">Fuxin Li</a>
-    <br>Associate Professor, CS <br>Oregon State</b>
-</figure>
-
-<figure>
-    <a href="https://cce.oregonstate.edu/olsen">
-    <img class="img-author" src="assets/imgs/authors/organizers/michaelolsen.jpg" alt="Michael Olsen"/></a>
-    <b><br><a href="https://cce.oregonstate.edu/olsen">Michael Olsen</a>
-    <br>Dean's Professor, CCE <br>Oregon State</b>
-</figure>
-
-<figure>
-    <a href="https://engineering.oregonstate.edu/people/yelda-turkan">
-    <img class="img-author" src="assets/imgs/authors/organizers/yeldaturkan.jpg" alt="Yelda Turkan"/></a>
-    <b><br><a href="https://engineering.oregonstate.edu/people/yelda-turkan">Yelda Turkan</a>
-    <br>Associate Professor, CCE <br>Oregon State</b>
-</figure>
-
-<figure>
-    <a href="https://people.inf.ethz.ch/pomarc/">
-    <img class="img-author" src="assets/imgs/authors/organizers/marcpollefeys.jpeg" alt="Marc Pollefeys"/></a>
-    <b><br><a href="https://people.inf.ethz.ch/pomarc/">Marc Pollefeys</a>
-    <br>Professor, CS <br>ETH Zurich</b>
+    <br>Assistant Professor <br>Stanford</b>
 </figure>
 
 <figure>
     <a href="https://sayands.github.io/">
     <img class="img-author" src="assets/imgs/authors/organizers/sayandebsarkar.jpg" alt="Sayan Deb Sarkar"/></a>
     <b><br><a href="https://sayands.github.io/">Sayan Deb Sarkar</a>
-    <br>PhD, CEE <br>Stanford</b>
+    <br>PhD <br>Stanford</b>
+</figure>
+
+<figure>
+    <a href="http://web.engr.oregonstate.edu/~lif/">
+    <img class="img-author" src="assets/imgs/authors/organizers/fuxinli.jpg" alt="Fuxin Li"/></a>
+    <b><br><a href="http://web.engr.oregonstate.edu/~lif/">Fuxin Li</a>
+    <br>Associate Professor <br>Oregon State</b>
+</figure>
+
+<figure>
+    <a href="https://cce.oregonstate.edu/olsen">
+    <img class="img-author" src="assets/imgs/authors/organizers/michaelolsen.jpg" alt="Michael Olsen"/></a>
+    <b><br><a href="https://cce.oregonstate.edu/olsen">Michael Olsen</a>
+    <br>Dean's Professor <br>Oregon State</b>
+</figure>
+
+<figure>
+    <a href="https://people.inf.ethz.ch/pomarc/">
+    <img class="img-author" src="assets/imgs/authors/organizers/marcpollefeys.jpeg" alt="Marc Pollefeys"/></a>
+    <b><br><a href="https://people.inf.ethz.ch/pomarc/">Marc Pollefeys</a>
+    <br>Professor <br>ETH Zurich</b>
 </figure>
 
 <figure>
     <a href="#">
     <img class="img-author" src="assets/imgs/authors/organizers/emilysteiner.jpg" alt="Emily Steiner"/></a>
     <b><br><a href="https://www.easteine.com/">Emily Steiner</a>
-    <br>PhD, EE <br>Stanford</b>
+    <br>PhD <br>Stanford</b>
 </figure>
 
 <figure>
     <a href="https://taosun.io">
     <img class="img-author" src="assets/imgs/authors/organizers/taosun.jpg" alt="Tao Sun"/></a>
     <b><br><a href="https://taosun.io">Tao Sun</a>
-    <br>PhD, CEE <br>Stanford</b>
+    <br>PhD <br>Stanford</b>
+</figure>
+
+<figure>
+    <a href="https://engineering.oregonstate.edu/people/yelda-turkan">
+    <img class="img-author" src="assets/imgs/authors/organizers/yeldaturkan.jpg" alt="Yelda Turkan"/></a>
+    <b><br><a href="https://engineering.oregonstate.edu/people/yelda-turkan">Yelda Turkan</a>
+    <br>Associate Professor <br>Oregon State</b>
 </figure>
 
 </div>
