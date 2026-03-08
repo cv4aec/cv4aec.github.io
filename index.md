@@ -132,7 +132,9 @@ is a Full Professor of Urban Informatics, jointly appointed at New York Universi
 
 We invite submissions exploring the intersection of Computer Vision and the Built Environment, focusing on applications that transform how we understand, model, and design buildings and construction sites. Construction sites and building lifecycles are dynamic, complex, and data-rich, providing an ideal real-world testbed for advancing computer vision methods while generating actionable insights for design, sustainability, and circular practices.
 
-Link to the submission system: **[OpenReview](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CV4AEC_Archival_Track#tab-recent-activity)**
+Submission links: **[Archival Track (OpenReview)](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CV4AEC_Archival_Track#tab-recent-activity)** --- **[Non-Archival Track (OpenReview)](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CV4AEC_Non-archival_Track)**
+
+Submissions should follow the CVPR 2026 Author Kit: **[CVPR 2026 Author Guidelines](https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines)**
 
 Both **short non-archival papers (4 pages)** and **long archival papers (8 pages)** are welcome. Submissions should:
 - Introduce the topic and review related literature.
