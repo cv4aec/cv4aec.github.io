@@ -43,7 +43,7 @@ The workshop will consist of: invited <a href="#speakers" target="_self">keynote
 <strong><u>Archival Paper Submission (8 pages)</u></strong>
 - **15 Jan 2026 ---** Submissions open
 - **15 Mar 2026 ---** Submission deadline
-- **20 Mar 2026 ---** Final decisions / Reviews sent
+- **24 Mar 2026 ---** Final decisions / Reviews sent
 - **10 Apr 2026 ---** Camera ready deadline
 
 <strong><u>Non-Archival Paper Submission (4 pages)</u></strong>
